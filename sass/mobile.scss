@@ -15,6 +15,8 @@
         top: 0;
     }
 
+
+
     .top-bar {
         width: 100%;
         display: flex;
@@ -52,6 +54,8 @@
             }
         }
     }
+
+    // Home
 
     .banner {
         width: 100%;
@@ -182,4 +186,72 @@
         }
 
     }
+
+    // My Cart
+
+    .cart {
+        background: #FAFAFA;
+
+        &_box {
+            width: 100%;
+            margin: 0 auto;
+
+            &-top {
+                width: 100%;
+                display: flex;
+                padding: 0;
+            }
+
+            &-list {
+                display: flex;
+                flex-direction: column;
+                gap: 1px;
+
+                &-product {
+                    width: 100%;
+                    display: flex;
+
+                    &-item {
+                        width: 100%;
+
+                        &-conten {
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            gap: 0;
+
+                            &-sl {
+                                display: none;
+                                width: 89px;
+                                gap: 16px;
+                            }
+
+                            &-sum {
+                                display: none;
+
+                            }
+
+                            &-price {
+                                display: none;
+
+                            }
+                        }
+
+
+
+
+                    }
+                }
+
+                &-order {
+                    width: 100%;
+
+                }
+
+            }
+
+        }
+    }
+
 }
