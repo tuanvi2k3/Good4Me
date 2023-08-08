@@ -6,9 +6,18 @@ a {
     text-decoration: none;
 }
 
+main {
+    margin-top: 131px;
+
+}
+
 header {
+    width: 100%;
     background: #FA541C;
     line-height: 27.2px;
+    position: fixed;
+    z-index: 100;
+    top: 0
 }
 
 .top-bar {
@@ -17,6 +26,7 @@ header {
     justify-content: space-between;
     margin: 0 auto;
     padding: 16px 0;
+
 
     &>p {
         font-size: 16px;
@@ -55,6 +65,7 @@ header {
 .box-header {
     background: rgb(245, 242, 242);
     border-bottom: 1px solid rgba(221, 221, 221, 1);
+
 }
 
 .header {
@@ -193,6 +204,10 @@ header {
             color: #fff;
             border-radius: 3px;
             transition: 0.5s;
+
+            &>a {
+                color: #fff;
+            }
         }
 
         &>button:hover {
@@ -280,6 +295,15 @@ header {
                     border-radius: 8px;
                     color: #fff;
                     gap: 8px;
+                    transition: 0.5s;
+
+                    &>a {
+                        color: #fff;
+                    }
+                }
+
+                &>button:hover {
+                    opacity: 0.5;
                 }
 
                 &>img {
@@ -491,15 +515,13 @@ header {
             height: 1px;
             background: #FA541C;
 
-
-
             &>button {
                 background: white;
                 padding: 10px 16px;
                 border: 1px solid #FA541C;
                 border-radius: 10px;
                 font-size: 16px;
-                color: #FA541C;
+                color: #c73f12;
                 position: relative;
 
                 &>a {
