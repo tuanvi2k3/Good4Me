@@ -32,6 +32,8 @@
         }
     }
 
+    // header
+
     .header {
         width: 100%;
         display: flex;
@@ -148,6 +150,8 @@
         }
     }
 
+    // footer
+
     .ft {
         margin-top: 72.5px;
         background: #FFF8F6;
@@ -214,6 +218,10 @@
                     &-item {
                         width: 100%;
 
+                        &>input {
+                            cursor: pointer;
+                        }
+
                         &-conten {
                             width: 100%;
                             display: flex;
@@ -234,23 +242,36 @@
 
                             &-price {
                                 display: none;
+                            }
 
+                            &-delete {
+                                cursor: pointer;
                             }
                         }
-
-
-
-
                     }
                 }
 
                 &-order {
                     width: 100%;
-
                 }
-
             }
+        }
+    }
 
+    // Pay
+
+    .pay {
+        background: #FAFAFA;
+
+        &_box {
+            width: 100%;
+
+            &-main {
+                &>p {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
         }
     }
 

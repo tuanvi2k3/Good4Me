@@ -169,6 +169,9 @@
   .cart_box-list-product-item {
     width: 100%;
   }
+  .cart_box-list-product-item > input {
+    cursor: pointer;
+  }
   .cart_box-list-product-item-conten {
     width: 100%;
     display: flex;
@@ -187,8 +190,21 @@
   .cart_box-list-product-item-conten-price {
     display: none;
   }
+  .cart_box-list-product-item-conten-delete {
+    cursor: pointer;
+  }
   .cart_box-list-order {
     width: 100%;
+  }
+  .pay {
+    background: #FAFAFA;
+  }
+  .pay_box {
+    width: 100%;
+  }
+  .pay_box-main > p {
+    display: flex;
+    flex-direction: column;
   }
 }
 
