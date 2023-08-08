@@ -1,0 +1,218 @@
+@media screen and (max-width: 768px) {
+
+
+    main {
+        margin-top: 268px;
+
+    }
+
+    header {
+        width: 100%;
+        background: #FA541C;
+        line-height: 27.2px;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+    }
+
+    .top-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+        position: relative;
+
+        &>label {
+            width: 100%;
+        }
+
+        &_srd {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            &_item {
+
+                &>a {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 8px 16px;
+                    border-radius: 3px;
+                    transition: 0.7s;
+                }
+
+                &>span {
+                    display: none;
+                }
+
+                &>a:hover {
+                    background: red;
+                    padding: 8px 16px;
+                }
+            }
+
+            &_item:last-child {
+                margin-right: 16px;
+                display: flex;
+                justify-content: flex-end;
+            }
+
+
+        }
+    }
+
+    .header {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &_nav {
+            display: none;
+        }
+
+        &_right {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+
+            &_search {
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+
+    .banner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-image {
+            margin: -50px 0;
+        }
+
+    }
+
+    .fa {
+        display: block;
+        background: #FAFAFA;
+        font-family: "Inter";
+
+        &-box {
+            width: 100%;
+
+            &-heading {
+                color: #3D3737;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 37.66px;
+                padding-bottom: 32px;
+
+                &>span {
+                    border-bottom: 1px solid #334155;
+                }
+            }
+
+            &-container {
+                width: 100%;
+                display: block;
+
+                &_item {
+                    &_img3 {
+                        position: absolute;
+                        right: 1px;
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .aw {
+        display: block;
+        background: #FAFAFA;
+        font-family: "Inter";
+
+        &-box {
+            width: 100%;
+            margin: 40px 0 0;
+
+            &-heading {
+                color: #3D3737;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 37.66px;
+                padding-bottom: 32px;
+
+                &>span {
+                    border-bottom: 1px solid #334155;
+                }
+            }
+
+            &-container {
+                display: flex;
+                flex-direction: column;
+                row-gap: 40px;
+
+                &-item {
+                    display: flex;
+                    gap: 100px;
+                }
+            }
+        }
+    }
+
+    .ft {
+        margin-top: 72.5px;
+        background: #FFF8F6;
+        padding: 24px 0;
+
+        &_box {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 40px;
+
+            &-go {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                gap: 40px;
+                cursor: pointer;
+            }
+        }
+
+        &_end {
+            width: 100%;
+
+            &-icon {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+
+            }
+        }
+
+    }
+}

@@ -26,31 +26,74 @@ header {
   margin: 0 auto;
   padding: 16px 0;
 }
-.top-bar > p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
+.top-bar > label > input {
+  display: none;
+  visibility: hidden;
 }
-.top-bar_srd {
+.top-bar > label > .toggle {
+  display: none;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 13.5px;
+  left: 15px;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: #FA541C;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.top-bar > label > .toggle > .tge {
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background: #ddd;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+.top-bar > label > .toggle > .tg1 {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-bar > label > .toggle > .tg2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-bar > label > .toggle > .tg3 {
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-bar > label > ul {
   display: flex;
 }
-.top-bar_srd_item {
+.top-bar > label > ul > li {
   font-size: 16px;
   padding: 0 15px;
   font-size: 16px;
   font-weight: 400;
 }
-.top-bar_srd_item > a {
+.top-bar > label > ul > li > a {
   color: #fff;
 }
-.top-bar_srd_item > span {
+.top-bar > label > ul > li > span {
   color: #fff;
 }
-.top-bar_srd_item:last-child {
+.top-bar > label > ul > li:last-child {
   margin: 0 -15px 0 0;
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.top-bar > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.top-bar_todo {
+  display: none;
 }
 
 .box-header {
