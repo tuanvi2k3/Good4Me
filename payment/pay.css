@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap");
+html {
+  font-family: "Inter";
+}
+
+.pay {
+  background: #fafafa;
+}
+.pay_box {
+  width: 700px;
+  margin: 100.09px auto;
+  padding: 40px;
+}
+.pay_box-top {
+  text-align: center;
+}
+.pay_box-top-img > img {
+  margin: auto;
+}
+.pay_box-top > h1 {
+  margin: 16px 0 8px;
+  font-size: 23px;
+  color: #fa541c;
+  line-height: 37px;
+  font-weight: 500;
+}
+.pay_box-top > p {
+  color: #212529;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.pay_box-main {
+  margin-top: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.0588235294);
+  row-gap: 16px;
+}
+.pay_box-main > h2 {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #3d3737;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dddddd;
+}
+.pay_box-main > p {
+  line-height: 27px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  width: 100%;
+  color: #3d3737;
+}
+.pay_box-main > p > span:first-child {
+  width: 250px;
+}
+.pay_box > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+.pay_box > button > a {
+  display: block;
+  background: #fff;
+  line-height: 27.2px;
+  text-align: center;
+  border: 1px solid #fa541c;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #fa541c;
+}
+
+/*# sourceMappingURL=pay.css.map */

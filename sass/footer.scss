@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap");
+
+html {
+    font-family: "Inter";
+}
+
+.ft {
+    margin-top: 72.5px;
+    background: #FFF8F6;
+    padding: 24px 0;
+
+
+    &_box {
+        width: 1360.25px;
+        margin: 0 auto;
+        display: flex;
+        gap: 40px;
+        padding: 0 0 40px 0;
+        border-bottom: 1px solid #334155;
+
+
+        &-go {
+            width: 424.25px;
+
+            a,
+            p {
+                padding-left: 20px;
+                font-size: 16px;
+                line-height: 27.2px;
+                color: #3D3737;
+
+            }
+
+            a:hover p {
+                color: #FA541C;
+            }
+
+        }
+
+        &-if {
+            width: 148px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            &>h1 {
+                margin-bottom: 10px
+            }
+
+            & {
+
+                a,
+                p {
+                    font-size: 16px;
+                    line-height: 27.2px;
+                    color: #3D3737;
+                    transition: 0.5s;
+
+                }
+
+                a:hover p {
+                    color: #FA541C;
+                }
+            }
+
+        }
+
+        &-ct,
+        &-na {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            &>h1 {
+                margin-bottom: 10px
+            }
+
+            & {
+
+                a,
+                p {
+                    font-size: 16px;
+                    line-height: 27.2px;
+                    color: #3D3737;
+                    transition: 0.5s;
+
+                }
+
+                a:hover p {
+                    color: #FA541C;
+                }
+            }
+        }
+    }
+
+    &_end {
+        width: 1360.25px;
+        margin: 0 auto;
+        gap: 40px;
+        padding: 40px 0;
+
+
+        &-icon {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &-mxh {
+                display: flex;
+                gap: 20px;
+            }
+
+
+            &>p {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 400;
+                color: #3D3737;
+
+                &>span {
+                    color: #FA541C;
+                }
+            }
+
+
+        }
+    }
+}

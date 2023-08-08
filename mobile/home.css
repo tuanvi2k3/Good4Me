@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  .top-bar {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .top-bar_srd {
+    display: flex;
+    justify-content: space-around;
+  }
+  .header {
+    width: 1280px;
+    height: 72px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

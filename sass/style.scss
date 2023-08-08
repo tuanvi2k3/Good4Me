@@ -1,0 +1,45 @@
+@import "./home.scss";
+@import "./category.scss";
+@import "./reset.scss";
+
+@font-face {
+    font-family: gilroy-bold;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Bold'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-heavy;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Heavy'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-light;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Light'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Medium'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-regular;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Regular'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff) format('woff')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+
+html {
+    font-family: "Gilroy-Medium";
+}

@@ -1,0 +1,129 @@
+@font-face {
+    font-family: gilroy-bold;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Bold'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-heavy;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Heavy'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-light;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Light'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Medium'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-regular;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Regular'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff) format('woff')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+
+html {
+    font-family: "Gilroy-Medium";
+}
+
+.od {
+    background: #FAFAFA;
+
+    &_box {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        width: 1280px;
+        margin: 0 auto;
+
+        &>h1 {
+            padding: 75px 0 32px;
+            border-bottom: 1px solid #DDDDDD;
+            font-size: 24px;
+            line-height: 28.25px;
+            font-weight: 500;
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding: 16px;
+            background: #fff;
+
+            &-hding {
+                padding: 16px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                &>h2 {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+
+                    font-size: 24px;
+                    line-height: 28.25px;
+                    font-weight: 500;
+                    color: #3C4242;
+                    ;
+                }
+
+                &>p {
+                    font-size: 16px;
+                    color: #85858A;
+
+                }
+            }
+
+            &-product {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 16px;
+                box-shadow: 0px 2px 16px 0px #0000000F;
+
+                &-item {
+                    display: flex;
+                    align-items: center;
+                    gap: 32px;
+
+                    &-des {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 4px;
+
+                        &>p {
+                            color: #334155;
+                            font-size: 14px;
+                            line-height: 16.24px;
+
+                        }
+                    }
+
+                }
+
+                &-total {
+                    color: #3D3737;
+                    font-size: 16px;
+                }
+
+            }
+
+        }
+    }
+}

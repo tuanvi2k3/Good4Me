@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap");
+@import "../sass/reset.scss";
+
+@font-face {
+    font-family: gilroy-bold;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Bold'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-heavy;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Heavy'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-light;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Light'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Medium'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-regular;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Regular'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff) format('woff')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+
+html {
+    font-family: "Gilroy-Medium";
+}
+
+.cart {
+    background: #FAFAFA;
+
+    &_box {
+        width: 1280px;
+        margin: 0 auto;
+
+        &-top {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 0 32px 0;
+            border-bottom: 1px solid #DDDDDD;
+            margin-bottom: 32px;
+
+            &>h1 {
+                color: #3D3737;
+                font-size: 24px;
+                line-height: 28.25px;
+            }
+
+            &>p {
+                font-size: 20px;
+                color: #FA541C;
+                line-height: 23.54px;
+            }
+        }
+
+        &-list {
+            display: flex;
+            width: 100%;
+            gap: 32px;
+
+            &-product {
+                width: 840px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 16px;
+
+                &-item {
+                    height: 91px;
+                    padding: 8px 16px;
+                    display: flex;
+                    align-items: center;
+                    box-shadow: 0px 4px 20px 0px #0000000D;
+                    background-color: white;
+                    gap: 16px;
+                    border-radius: 8px;
+
+                    &>input {
+                        width: 24px;
+                        height: 24px;
+                        border-radius: 2px;
+
+                    }
+
+                    &-img {
+                        width: 75px;
+                        height: 75px;
+                    }
+
+                    &-conten {
+                        display: flex;
+                        align-items: center;
+                        gap: 79px;
+
+                        &-sl {
+                            display: flex;
+                            width: 89px;
+                            gap: 16px;
+
+                            &>button {
+                                width: 24px;
+                                height: 24px;
+                                border-radius: 8px;
+                                color: white;
+                            }
+
+                            &>button:first-child {
+                                background: #EEEEEE;
+                                color: #334155;
+                            }
+
+                            &>button:last-child {
+                                background: #3D3737;
+                            }
+
+
+                            &>input {
+                                width: 9px;
+                                height: 27px;
+                                border: none;
+                                outline: none;
+                                text-align: center;
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            &-order {
+                width: calc(100% - 872px);
+                padding: 16px;
+                background: #FFFFFF;
+                padding: 16px;
+
+                &-box {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 16px;
+
+                    &>h2 {
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 23.54px;
+                        padding: 0 0 16px 0;
+                        border-bottom: 1px solid #DDDDDD
+                    }
+
+                    &-amout {
+                        display: flex;
+                        flex-direction: column;
+                        padding-bottom: 16px;
+                        border-bottom: 1px solid #DDDDDD;
+                        row-gap: 8px;
+
+                        &>p {
+                            display: flex;
+                            justify-content: space-between;
+                            font-size: 16px;
+                            padding: 4.5px 0;
+                            color: #3D3737;
+                            line-height: 18px;
+                        }
+
+                        &>p:last-child {
+                            &>span:last-child {
+                                color: #F5222D;
+                            }
+                        }
+                    }
+
+                    &-note {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 8px;
+
+                        &>label {
+                            display: block;
+                            font-size: 16px;
+                            padding: 4.5px 0;
+                            color: #3D3737;
+                            line-height: 18px;
+                        }
+
+                        &>textarea {
+                            max-width: 100%;
+                            min-width: 100%;
+                            max-height: 112px;
+                            min-height: 112px;
+                            padding: 10px;
+                            border-radius: 4px;
+                            border: 1px solid #DDDDDD;
+                            margin-bottom: 8px;
+                        }
+
+                        &>button {
+                            width: 100%;
+                            padding: 8px 16px;
+                            background: #FA541C;
+
+                            font-size: 20px;
+                            font-weight: 500;
+                            line-height: 23.54px;
+
+                            color: #fff;
+
+                            border-radius: 3px;
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+}

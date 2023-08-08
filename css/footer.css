@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap");
+html {
+  font-family: "Inter";
+}
+
+.ft {
+  margin-top: 72.5px;
+  background: #FFF8F6;
+  padding: 24px 0;
+}
+.ft_box {
+  width: 1360.25px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  padding: 0 0 40px 0;
+  border-bottom: 1px solid #334155;
+}
+.ft_box-go {
+  width: 424.25px;
+}
+.ft_box-go a,
+.ft_box-go p {
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 27.2px;
+  color: #3D3737;
+}
+.ft_box-go a:hover p {
+  color: #FA541C;
+}
+.ft_box-if {
+  width: 148px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ft_box-if > h1 {
+  margin-bottom: 10px;
+}
+.ft_box-if a,
+.ft_box-if p {
+  font-size: 16px;
+  line-height: 27.2px;
+  color: #3D3737;
+  transition: 0.5s;
+}
+.ft_box-if a:hover p {
+  color: #FA541C;
+}
+.ft_box-ct, .ft_box-na {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ft_box-ct > h1, .ft_box-na > h1 {
+  margin-bottom: 10px;
+}
+.ft_box-ct a,
+.ft_box-ct p, .ft_box-na a,
+.ft_box-na p {
+  font-size: 16px;
+  line-height: 27.2px;
+  color: #3D3737;
+  transition: 0.5s;
+}
+.ft_box-ct a:hover p, .ft_box-na a:hover p {
+  color: #FA541C;
+}
+.ft_end {
+  width: 1360.25px;
+  margin: 0 auto;
+  gap: 40px;
+  padding: 40px 0;
+}
+.ft_end-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ft_end-icon-mxh {
+  display: flex;
+  gap: 20px;
+}
+.ft_end-icon > p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #3D3737;
+}
+.ft_end-icon > p > span {
+  color: #FA541C;
+}
+
+/*# sourceMappingURL=footer.css.map */
