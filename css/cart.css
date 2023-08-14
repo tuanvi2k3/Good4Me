@@ -106,7 +106,7 @@ html {
 }
 .cart_box-list-product-item-conten-sl {
   display: flex;
-  width: 89px;
+  width: 100px;
   gap: 16px;
 }
 .cart_box-list-product-item-conten-sl > button {
@@ -123,7 +123,7 @@ html {
   background: #3d3737;
 }
 .cart_box-list-product-item-conten-sl > input {
-  width: 9px;
+  width: 15px;
   height: 27px;
   border: none;
   outline: none;
